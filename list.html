@@ -24,17 +24,10 @@
             <div class="list">
                 <h2 class="list-title">Groceries</h2>
                 <ol id="grocery-list">
-                    <li>
-                        <label for="check-eggs">Eggs</label>
-                        <input id="check-eggs" type="checkbox" class="complete-item" onclick="completeListItem(this)">
-                        <button class="delete-item" onclick="deleteListItem(this.parentNode)">X</button>
-                    </li>
-                    <li>Milk</li>
-                    <li>Cereal</li>
                 </ol>
                 <label for="text_input">New task name</label>
                 <input id="text_input" type="text"></input>             
-                <button onclick="onAddItem()">Add Item</button>
+                <button id="add-item-button" onclick="onAddItem()">Add Item</button>
             </div>
         </div>
     </div>
